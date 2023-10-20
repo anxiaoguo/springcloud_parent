@@ -1,0 +1,21 @@
+server:
+  port: 9990
+
+spring:
+  application:
+    name: GATEWAY
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+
+    gateway:
+      routes:
+        - id: category_router
+          uri: http://localhost:8001
+          predicates:
+            - Path=/category/**
+        - id: product_router
+          uri: http://localhost:8002
+          predicates:
+            - Path=/product/**

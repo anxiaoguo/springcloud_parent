@@ -1,14 +1,13 @@
 package com.axg.category.controller;
 
 import com.axg.category.dto.CollectionDaraDTO;
-import com.axg.category.entity.Product;
 import com.axg.category.feign.ProductClient;
+import com.axg.category.entity.Product;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 

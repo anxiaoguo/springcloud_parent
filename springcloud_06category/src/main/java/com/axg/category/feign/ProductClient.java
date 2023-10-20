@@ -6,7 +6,7 @@ import com.axg.category.entity.Product;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
-@FeignClient("PRODUCT")
+@FeignClient(value = "PRODUCT",path = "product")
 public interface ProductClient {
 
 

@@ -16,6 +16,9 @@
         <module>springcloud_05orders</module>
         <module>springcloud_06category</module>
         <module>springcloud_07product</module>
+        <module>springcloud_08hystrix</module>
+        <module>springcloud_09hystrix_openfeign</module>
+        <module>springcloud_10gateway</module>
     </modules>
 
 

@@ -1,6 +1,6 @@
-package com.axg.category.dto;
+package com.axg.hystrix.product.dto;
 
-import com.axg.category.entity.Product;
+import com.axg.hystrix.product.entity.Product;
 
 import java.util.List;
 
